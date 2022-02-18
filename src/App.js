@@ -84,7 +84,9 @@ class App extends Component {
   }
 
   getStudies = () => {
-    fetch(baseUrl + '/studies')
+    fetch(baseUrl + '/studies', {
+      credentials: 'include'
+    })
     .then(res => {
       if(res.status === 200) {
         return res.json()
@@ -116,7 +118,7 @@ class App extends Component {
     console.log(id)
     fetch(baseUrl + '/studies/' + id, {
       method: 'DELETE',
-      // credentials: 'include'
+      credentials: 'include'
     }).then(res => {
       console.log(res)
       if(res.status === 200) {

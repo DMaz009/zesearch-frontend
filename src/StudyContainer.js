@@ -24,6 +24,7 @@ export default class StudyContainer extends Component {
       headers: {
         'Content-Type': 'application/json'
       },
+      credentials: 'include'
     }).then(res => res.json())
     .then(resJson => {
       console.log(resJson)
