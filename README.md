@@ -4,9 +4,9 @@
 
 # GitHub Repos and Heroku Backend:
 
--https://zesearch-backend.herokuapp.com/
--https://github.com/DMaz009/zesearch-frontend
--https://github.com/DMaz009/z-search_BackEnd
+1. (https://zesearch-backend.herokuapp.com/)
+2. (https://github.com/DMaz009/zesearch-frontend)
+3. (https://github.com/DMaz009/z-search_BackEnd)
 
 
 ## App Description:
@@ -30,8 +30,8 @@ An application that helps you track research studies you have read.
 
 ### User Stories:
 
--As a user, I want to be able track studies I read so that I can build on previous information.
--As a user, I want to be able to rate the studies I read so I can define the importance and value the study provided.
--As a user, I want to input my own summary from my research review to increase comprehension.
--As a user, I want to be able to update my study cards when new information comes in.
--As a user, I want to be able to delete studies that have been disproven.
+1. As a user, I want to be able track studies I read so that I can build on previous information.
+2. As a user, I want to be able to rate the studies I read so I can define the importance and value the study provided.
+3. As a user, I want to input my own summary from my research review to increase comprehension.
+4. As a user, I want to be able to update my study cards when new information comes in.
+5. As a user, I want to be able to delete studies that have been disproven.
