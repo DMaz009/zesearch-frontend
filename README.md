@@ -2,6 +2,13 @@
 
 (https://zesearch-frontend.herokuapp.com/)
 
+# GitHub Repos and Heroku Backend:
+
+-https://zesearch-backend.herokuapp.com/
+-https://github.com/DMaz009/zesearch-frontend
+-https://github.com/DMaz009/z-search_BackEnd
+
+
 ## App Description:
 
 An application that helps you track research studies you have read.
