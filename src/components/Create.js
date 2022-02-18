@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container';
 import Select from 'react-select';
 import './create.css';
 
-const baseUrl = "http://localhost:3003"
+const baseUrl = "https://zesearch-backend.herokuapp.com/"
 
 function Create(props,{setname}) {
   console.log(props.studyCards);
@@ -32,7 +32,7 @@ function Create(props,{setname}) {
       headers: {"content-type": "application/json"},
       method: "POST",
       body: JSON.stringify(formData)
-      // credentials: 'include'
+      credentials: 'include'
     })
     .then(res => {
       console.log(res.status)
