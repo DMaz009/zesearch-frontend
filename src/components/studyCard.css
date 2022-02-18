@@ -1,0 +1,21 @@
+#container {
+  position: sticky;
+  bottom: 10px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: .75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-top: 58px;
+  width: 100vw;
+}
+#slider {
+  display: grid;
+  grid-auto-flow: row;
+  gap: .75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  background: linear-gradient(to right, grey, beige);
+  border-radius: 5%;
+  height: 320px;
+}
