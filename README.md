@@ -15,11 +15,11 @@ An application that helps you track research studies you have read.
 
 ### Technology Used:
 
--Mongo
--Express
--Reactjs
--Node
--Bootstrap
+* Mongo. MongoDB Atlas, Mongoose. 
+* Express
+* Reactjs
+* Node
+- Bootstrap
 
 ### Installation Steps:
 
