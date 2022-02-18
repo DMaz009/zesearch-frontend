@@ -11,27 +11,28 @@
 
 ## App Description:
 
-An application that helps you track research studies you have read.
+An application that helps you track research studies that you have read.
 
 ### Technology Used:
 
-* Mongo. MongoDB Atlas, Mongoose. 
+- Full Stack MERN Application:
+* Mongo (MongoDB Atlas, Mongoose)
 * Express
 * Reactjs
 * Node
-- Bootstrap
+* Bootstrap
 
 ### Installation Steps:
 
-1. Change the .env on the front and back end to your localhost.
-2. Change the baseUrl variables in both to your localhost.
+1. Change the .env keys on the front and back end to your localhost.
+2. Change the baseUrl variables in both front and backends to your localhost.
 3. Run Nodemon on the backend.
 4. Run Npm start on the front end.
 
 ### User Stories:
 
-1. As a user, I want to be able track studies I read so that I can build on previous information.
-2. As a user, I want to be able to rate the studies I read so I can define the importance and value the study provided.
-3. As a user, I want to input my own summary from my research review to increase comprehension.
-4. As a user, I want to be able to update my study cards when new information comes in.
-5. As a user, I want to be able to delete studies that have been disproven.
+* As a user, I want to be able track studies I read so that I can build on previous information.
+* As a user, I want to be able to rate the studies I read so I can define the importance and value the study provided.
+* As a user, I want to input my own summary from my research review to increase comprehension.
+* As a user, I want to be able to update my study cards when new information comes in.
+* As a user, I want to be able to delete studies that have been disproven.
